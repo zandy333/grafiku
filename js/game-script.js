@@ -3,7 +3,6 @@ window.onload=function() {
   let container = document.getElementById("container");
   let menubtn = document.getElementById("menubtn");
   let content = document.getElementById("content");
-  let board = document.getElementById("board");
   let w = window.innerWidth;
   let h = window.innerHeight;
   let tbl_1 = document.getElementsByClassName("tbl_1");
@@ -113,52 +112,50 @@ window.onload=function() {
 
     for (let i = 0; i < tbl_1.length; i++) {
       tbl_1[i].style.border = "1.0vw solid #ffffff";
-      /*tbl_1[i].style.width = "86vw";
-      tbl_1[i].style.height = "86vw";*/
+      //tbl_1[i].style.width = "86vw";
+      //tbl_1[i].style.height = "86vw";
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      //td_1[i].style.border = "0.5vw solid #e76b6bff";
       td_1[i].style.border = "0.5vw solid #ffffff";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      //td_2[i].style.border = "0.5vw solid #f8f412ff";
       td_2[i].style.border = "0.5vw solid #ffffff";
       td_2[i].style.width = "20vw";
       td_2[i].style.height = "20vw";
     };
-/*
+
     for (let i = 0; i < d.length; i++) {
-      d[i].style.width = "21vw"; // 21vw instead of 20vw is used to avoid unexpected spacing
-      d[i].style.height = "21vw"; // 21vw instead of 20vw is used to avoid unexpected spacing
-    };*/
+      d[i].style.width = "20vw"; 
+      d[i].style.height = "20vw"; 
+      //d[i].style.backgroundColor = "#ff0000"
+    };
   }
 
   function displayLandscape() { 
 
     for (let i = 0; i < tbl_1.length; i++) {
       tbl_1[i].style.border = "1.0vh solid #ffffff";
-      /*tbl_1[i].style.width = "86vh";
-      tbl_1[i].style.height = "86vh";*/
+      //tbl_1[i].style.width = "86vh";
+      //tbl_1[i].style.height = "86vh";
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      //td_1[i].style.border = "0.5vh solid #e76b6bff";
       td_1[i].style.border = "0.5vh solid #ffffff";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      //td_2[i].style.border = "0.5vh solid #fff412ff";
       td_2[i].style.border = "0.5vh solid #ffffff";
       td_2[i].style.width = "20vh";
       td_2[i].style.height = "20vh";
     };
-/*
+
     for (let i = 0; i < d.length; i++) {
-      d[i].style.width = "21vh"; // 21vw instead of 20vw is used to avoid unexpected spacing
-      d[i].style.height = "21vh"; // 21vw instead of 20vw is used to avoid unexpected spacing
-    };*/
+      d[i].style.width = "20vh"; 
+      d[i].style.height = "20vh"; 
+      //d[i].style.backgroundColor = "#ff0000"
+    };
   }
 
   function setPadlockPortrait() {
@@ -166,26 +163,51 @@ window.onload=function() {
     padlock11.style.width = "5vw";
     padlock11.style.height = "5vw";
 
+    padlock12.style.width = "5vw";
+    padlock12.style.height = "5vw";
+/*
     padlock13.style.width = "5vw";
     padlock13.style.height = "5vw";
 
+    padlock14.style.width = "5vw";
+    padlock14.style.height = "5vw";
+*/
+    padlock21.style.width = "5vw";
+    padlock21.style.height = "5vw";
+/*
+    padlock22.style.width = "5vw";
+    padlock22.style.height = "5vw";
+
     padlock23.style.width = "5vw";
     padlock23.style.height = "5vw";
-
+*/
     padlock24.style.width = "5vw";
     padlock24.style.height = "5vw";
+/*
+    padlock31.style.width = "5vw";
+    padlock31.style.height = "5vw";
 
     padlock32.style.width = "5vw";
     padlock32.style.height = "5vw";
 
+    padlock33.style.width = "5vw";
+    padlock33.style.height = "5vw";
+
     padlock34.style.width = "5vw";
     padlock34.style.height = "5vw";
+*/
+    padlock41.style.width = "5vw";
+    padlock41.style.height = "5vw";
 
     padlock42.style.width = "5vw";
     padlock42.style.height = "5vw";
+/*
+    padlock43.style.width = "5vw";
+    padlock43.style.height = "5vw";
 
     padlock44.style.width = "5vw";
     padlock44.style.height = "5vw";
+*/
   }
 
   function setPadlockLandscape() {
@@ -193,114 +215,98 @@ window.onload=function() {
     padlock11.style.width = "5vh";
     padlock11.style.height = "5vh";
 
+    padlock12.style.width = "5vh";
+    padlock12.style.height = "5vh";
+/*
     padlock13.style.width = "5vh";
     padlock13.style.height = "5vh";
 
+    padlock14.style.width = "5vh";
+    padlock14.style.height = "5vh";
+*/
+    padlock21.style.width = "5vh";
+    padlock21.style.height = "5vh";
+/*
+    padlock22.style.width = "5vh";
+    padlock22.style.height = "5vh";
+
     padlock23.style.width = "5vh";
     padlock23.style.height = "5vh";
-
+*/
     padlock24.style.width = "5vh";
     padlock24.style.height = "5vh";
+/*
+    padlock31.style.width = "5vh";
+    padlock31.style.height = "5vh";
 
     padlock32.style.width = "5vh";
     padlock32.style.height = "5vh";
 
+    padlock33.style.width = "5vh";
+    padlock33.style.height = "5vh";
+
     padlock34.style.width = "5vh";
     padlock34.style.height = "5vh";
+*/
+    padlock41.style.width = "5vh";
+    padlock41.style.height = "5vh";
 
     padlock42.style.width = "5vh";
     padlock42.style.height = "5vh";
+/*
+    padlock43.style.width = "5vh";
+    padlock43.style.height = "5vh";
 
     padlock44.style.width = "5vh";
     padlock44.style.height = "5vh";
+  */
   }
 
   function gameLogic() {
-/*
+
     padlock11 = document.createElement("img");
     padlock11.src = "imgs/padlock.png";
 
-    padlock13 = document.createElement("img");
-    padlock13.src = "imgs/padlock.png";
+    padlock12 = document.createElement("img");
+    padlock12.src = "imgs/padlock.png";
 
-    padlock23 = document.createElement("img");
-    padlock23.src = "imgs/padlock.png";
+    padlock21 = document.createElement("img");
+    padlock21.src = "imgs/padlock.png";
  
     padlock24 = document.createElement("img");
     padlock24.src = "imgs/padlock.png";
 
-    padlock32 = document.createElement("img");
-    padlock32.src = "imgs/padlock.png";
+    padlock41 = document.createElement("img");
+    padlock41.src = "imgs/padlock.png";
 
-    padlock34 = document.createElement("img");
-    padlock34.src = "imgs/padlock.png";
-   
     padlock42 = document.createElement("img");
     padlock42.src = "imgs/padlock.png";
-
-    padlock44 = document.createElement("img");
-    padlock44.src = "imgs/padlock.png";
     
     d11.appendChild(padlock11);
-    d13.appendChild(padlock13);
-    d23.appendChild(padlock23);
+    d12.appendChild(padlock12);
+    d21.appendChild(padlock21);
     d24.appendChild(padlock24);
-    d32.appendChild(padlock32);
-    d34.appendChild(padlock34);
+    d41.appendChild(padlock41);
     d42.appendChild(padlock42);
-    d44.appendChild(padlock44);
-*/
-
-    /*
-    const img = new Image();
-    img.src = "imgs/catface.png";
-    img.onload = function() {
-        // Image is loaded, proceed with resampling
-        resampleImage(img);
-    };
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-
-    const desiredWidth = 300; // Example desired width
-    const aspectRatio = img.width / img.height;
-    const desiredHeight = desiredWidth / aspectRatio;
-
-    canvas.width = desiredWidth;
-    canvas.height = desiredHeight;
-
-    ctx.drawImage(img, 0, 0, desiredWidth, desiredHeight);
-
-    // To Data URL
-    const resampledDataURL = canvas.toDataURL('image/jpeg', 0.9); // Adjust quality as needed
-
-    // To Blob (for uploading, etc.)
-    canvas.toBlob(function(blob) {
-        // Handle the blob
-    }, 'image/jpeg', 0.9);
-
-    document.getElementById('outputImage').src = resampledDataURL;
-  */
-
-
-
-
-    c11.style.backgroundImage = "url('imgs/ratface400.png')";
-    c12.style.backgroundColor = "transparent";
-    c13.style.backgroundImage = "url('imgs/catface400.png')"; 
-    c14.style.backgroundColor = "transparent";
-    c21.style.backgroundColor = "transparent";
-    c22.style.backgroundColor = "transparent";
-    c23.style.backgroundImage = "url('imgs/ratface400.png')";
-    c24.style.backgroundImage = "url('imgs/catface400.png')"; 
-    c31.style.backgroundColor = "transparent";
-    c32.style.backgroundImage = "url('imgs/ratface400.png')"; 
-    c33.style.backgroundColor = "transparent";
-    c34.style.backgroundImage = "url('imgs/catface400.png')";
-    c41.style.backgroundColor = "transparent";
-    c42.style.backgroundImage = "url('imgs/catface400.png')"; 
-    c43.style.backgroundColor = "transparent";
-    c44.style.backgroundImage = "url('imgs/ratface400.png')"; 
-
+    
+    
+    c11.style.backgroundImage = "url('imgs/face3.png')";
+    c12.style.backgroundImage = "url('imgs/face2.png')";
+    c13.style.backgroundImage = "none"; 
+    c14.style.backgroundImage = "none"; 
+    c21.style.backgroundImage = "url('imgs/face4.png')";
+    c22.style.backgroundImage = "none"; 
+    c23.style.backgroundImage = "none"; 
+    c24.style.backgroundImage = "url('imgs/face2.png')"; 
+    c31.style.backgroundImage = "none"; 
+    c32.style.backgroundImage = "none"; 
+    c33.style.backgroundImage = "none"; 
+    c34.style.backgroundImage = "none"; 
+    c41.style.backgroundImage = "url('imgs/face2.png')";
+    c42.style.backgroundImage = "url('imgs/face4.png')"; 
+    c43.style.backgroundImage = "none"; 
+    c44.style.backgroundImage = "none"; 
+/*
     function checkWin() {
       if ((red12 == true) && 
         (blue14 == true) && 
@@ -508,6 +514,7 @@ window.onload=function() {
         }
       }, 200);
     });
+    */
   }
 
   // Check for portrait orientation
@@ -516,16 +523,16 @@ window.onload=function() {
   if (isPortrait) {
       console.log("Device is in portrait mode at initial load.");
       // Perform actions specific to portrait mode
-      //gameLogic();
+      gameLogic();
       displayPortrait();
-      //setPadlockPortrait();
+      setPadlockPortrait();
 
   } else {
       console.log("Device is in landscape mode at initial load.");
       // Perform actions specific to landscape mode
-      //gameLogic();
+      gameLogic();
       displayLandscape();
-      //setPadlockLandscape();
+      setPadlockLandscape();
   }
 
 /*
@@ -548,10 +555,10 @@ window.onload=function() {
     
     if (e.matches) {
       displayPortrait();
-      //setPadlockPortrait();
+      setPadlockPortrait();
     } else {
       displayLandscape();
-      //setPadlockLandscape();
+      setPadlockLandscape();
     } 
     
   });
