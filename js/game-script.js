@@ -180,18 +180,18 @@ window.onload=function() {
   function displayPortrait() {
 
     for (let i = 0; i < tbl_1.length; i++) {
-      tbl_1[i].style.border = "1.0vw solid #2a3da7";
+      tbl_1[i].style.border = "1.0vw solid #365585";
       //tbl_1[i].style.border = "1.0vw solid #ffffff";
       
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      td_1[i].style.border = "0.5vw solid #2a3da7";
+      td_1[i].style.border = "0.5vw solid #365585";
       //td_1[i].style.border = "0.5vw solid #ffffff";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      td_2[i].style.border = "0.5vw solid #2a3da7";
+      td_2[i].style.border = "0.5vw solid #365585";
       //td_2[i].style.border = "0.5vw solid #ffffff";
       td_2[i].style.width = "20vw";
       td_2[i].style.height = "20vw";
@@ -207,17 +207,17 @@ window.onload=function() {
   function displayLandscape() { 
 
     for (let i = 0; i < tbl_1.length; i++) {
-      tbl_1[i].style.border = "1.0vh solid #2a3da7";
+      tbl_1[i].style.border = "1.0vh solid #2d3a86";
       //tbl_1[i].style.width = "86vh";
       //tbl_1[i].style.height = "86vh";
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      td_1[i].style.border = "0.5vh solid #2a3da7";
+      td_1[i].style.border = "0.5vh solid #2d3a86";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      td_2[i].style.border = "0.5vh solid #2a3da7";
+      td_2[i].style.border = "0.5vh solid #2d3a86";
       td_2[i].style.width = "20vh";
       td_2[i].style.height = "20vh";
     };
