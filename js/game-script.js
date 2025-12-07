@@ -213,11 +213,11 @@ window.onload=function() {
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      td_1[i].style.border = "0.5vh solid ##2a3da7";
+      td_1[i].style.border = "0.5vh solid #2a3da7";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      td_2[i].style.border = "0.5vh solid ##2a3da7";
+      td_2[i].style.border = "0.5vh solid #2a3da7";
       td_2[i].style.width = "20vh";
       td_2[i].style.height = "20vh";
     };
