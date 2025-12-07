@@ -180,18 +180,18 @@ window.onload=function() {
   function displayPortrait() {
 
     for (let i = 0; i < tbl_1.length; i++) {
-      tbl_1[i].style.border = "1.0vw solid #365585";
+      tbl_1[i].style.border = "1.0vw solid #415a81";
       //tbl_1[i].style.border = "1.0vw solid #ffffff";
       
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      td_1[i].style.border = "0.5vw solid #365585";
+      td_1[i].style.border = "0.5vw solid #415a81";
       //td_1[i].style.border = "0.5vw solid #ffffff";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      td_2[i].style.border = "0.5vw solid #365585";
+      td_2[i].style.border = "0.5vw solid #415a81";
       //td_2[i].style.border = "0.5vw solid #ffffff";
       td_2[i].style.width = "20vw";
       td_2[i].style.height = "20vw";
