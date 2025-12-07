@@ -207,17 +207,17 @@ window.onload=function() {
   function displayLandscape() { 
 
     for (let i = 0; i < tbl_1.length; i++) {
-      tbl_1[i].style.border = "1.0vh solid #2d3a86";
+      tbl_1[i].style.border = "1.0vh solid #415a81";
       //tbl_1[i].style.width = "86vh";
       //tbl_1[i].style.height = "86vh";
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      td_1[i].style.border = "0.5vh solid #2d3a86";
+      td_1[i].style.border = "0.5vh solid #415a81";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      td_2[i].style.border = "0.5vh solid #2d3a86";
+      td_2[i].style.border = "0.5vh solid #415a81";
       td_2[i].style.width = "20vh";
       td_2[i].style.height = "20vh";
     };
