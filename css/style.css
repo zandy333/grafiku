@@ -18,7 +18,6 @@
   /**/
   justify-content: center;
   align-items: center;
-
   /**/
 
   /*background-color: rgb(34, 231, 245);*/
@@ -29,18 +28,34 @@
 
 #menubtn {
   width: 70px;
-  height: 50px;
+  height: 70px;
   position: absolute;
   top: 10px;
   left: 10px;
+  
 }
 
+#anchor {
+  text-decoration: none;
+}
+
+/*
 #btn {
   padding: 10px;
+  width: 70px;
+  height: 70px;
 }
 
 #btn a {
-   font-size: 14px;
+  font-size: 14px;
+  width: 70px;
+  height: 70px;
+}*/
+
+#menuimg {
+  width: 70px;
+  height: 70px;
+  border: 0;
 }
 
 #content {
