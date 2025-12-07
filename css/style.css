@@ -21,7 +21,9 @@
 
   /**/
 
-  background-color: rgb(34, 231, 245);
+  /*background-color: rgb(34, 231, 245);*/
+  /*background-color: rgb(40, 1, 71);*/
+  background-color: rgb(17, 2, 97);
 }
 
 #menubtn {
@@ -53,9 +55,10 @@
 }
 
 .tbl_1 {
-  /*background-color: rgb(252, 220, 134);*/
-  background-color: rgb(255, 223, 134);
+  /*
+  background-color: rgb(255, 223, 134);*/
   /*border-collapse: collapse;*/
+  background-color: rgb(21, 1, 77);
   border-spacing: 0;
   margin: 0;
   padding: 0;

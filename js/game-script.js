@@ -107,21 +107,92 @@ window.onload=function() {
   let blue42 = false;
   let blue43 = false;
   let blue44 = false;
+
+  let one11 = false;
+  let one12 = false;
+  let one13 = false;
+  let one14 = false;
+  let one21 = false;
+  let one22 = false;
+  let one23 = false;
+  let one24 = false;
+  let one31 = false;
+  let one32 = false;
+  let one33 = false;
+  let one34 = false;
+  let one41 = false;
+  let one42 = false;
+  let one43 = false;
+  let one44 = false;
+
+  let two11 = false;
+  let two12 = false;
+  let two13 = false;
+  let two14 = false;
+  let two21 = false;
+  let two22 = false;
+  let two23 = false;
+  let two24 = false;
+  let two31 = false;
+  let two32 = false;
+  let two33 = false;
+  let two34 = false;
+  let two41 = false;
+  let two42 = false;
+  let two43 = false;
+  let two44 = false;
+
+  let three11 = false;
+  let three12 = false;
+  let three13 = false;
+  let three14 = false;
+  let three21 = false;
+  let three22 = false;
+  let three23 = false;
+  let three24 = false;
+  let three31 = false;
+  let three32 = false;
+  let three33 = false;
+  let three34 = false;
+  let three41 = false;
+  let three42 = false;
+  let three43 = false;
+  let three44 = false;
+
+  let four11 = false;
+  let four12 = false;
+  let four13 = false;
+  let four14 = false;
+  let four21 = false;
+  let four22 = false;
+  let four23 = false;
+  let four24 = false;
+  let four31 = false;
+  let four32 = false;
+  let four33 = false;
+  let four34 = false;
+  let four41 = false;
+  let four42 = false;
+  let four43 = false;
+  let four44 = false;
+
     
   function displayPortrait() {
 
     for (let i = 0; i < tbl_1.length; i++) {
-      tbl_1[i].style.border = "1.0vw solid #ffffff";
-      //tbl_1[i].style.width = "86vw";
-      //tbl_1[i].style.height = "86vw";
+      tbl_1[i].style.border = "1.0vw solid #2a3da7";
+      //tbl_1[i].style.border = "1.0vw solid #ffffff";
+      
     };
 
     for (let i = 0; i < td_1.length; i++) {
-      td_1[i].style.border = "0.5vw solid #ffffff";
+      td_1[i].style.border = "0.5vw solid #2a3da7";
+      //td_1[i].style.border = "0.5vw solid #ffffff";
     };
 
     for (let i = 0; i < td_2.length; i++) {
-      td_2[i].style.border = "0.5vw solid #ffffff";
+      td_2[i].style.border = "0.5vw solid #2a3da7";
+      //td_2[i].style.border = "0.5vw solid #ffffff";
       td_2[i].style.width = "20vw";
       td_2[i].style.height = "20vw";
     };
@@ -306,43 +377,62 @@ window.onload=function() {
     c42.style.backgroundImage = "url('imgs/face4.png')"; 
     c43.style.backgroundImage = "none"; 
     c44.style.backgroundImage = "none"; 
-/*
+
     function checkWin() {
-      if ((red12 == true) && 
-        (blue14 == true) && 
-        (red21 == true) && 
-        (blue22 == true) && 
-        (blue31 == true) && 
-        (red33 == true) && 
-        (red41 == true) && 
-        (blue43 == true)) {
+      if ((four13 == true) && 
+        (one14 == true) && 
+        (one22 == true) && 
+        (three23 == true) && 
+        (one31 == true) && 
+        (three32 == true) && 
+        (two33 == true) && 
+        (four34 == true) && 
+        (one43 == true) && 
+        (three44 == true))  { {
           editable = false;
           setTimeout(function() {
             alert("You Win!");
           }, 200);
+        }
       }
     }
 
-    d12.addEventListener("click", function(e) {
+    d13.addEventListener("click", function(e) {
       setTimeout(function() {
        if (editable) {
           
-          if (clicks12 == 1) {
-              c12.style.backgroundImage = "url('imgs/catface400.png')";
-              red12 = true;
-              blue12 = false;
-          } else if (clicks12 == 0) {
-              c12.style.backgroundImage = "url('imgs/ratface400.png')"; ;
-              red12 = false;
-              blue12 = true;
+          if (clicks13 == 3) {
+              c13.style.backgroundImage = "url('imgs/face4.png')";
+              one13 = false;
+              two13 = false;
+              three13 = false;
+              four13 = true;
+          } else if (clicks13 == 2) {
+              c13.style.backgroundImage = "url('imgs/face3.png')";
+              one13 = false;
+              two13 = false;
+              three13 = true;
+              four13 = false;
+          }  else if (clicks13 == 1) {
+              c13.style.backgroundImage = "url('imgs/face2.png')";
+              one13 = false;
+              two13 = true;
+              three13 = false;
+              four13 = false;
+          } else if (clicks13 == 0) {
+              c13.style.backgroundImage = "url('imgs/face1.png')";
+              one13 = true;
+              two13 = false;
+              three13 = false;
+              four13 = false;
           } else {
               null;
           }
-          clicks12 = clicks12 + 1;
-          if (clicks12 >= 2) {
-            clicks12 = 0;
+          clicks13 = clicks13 + 1;
+          if (clicks13 >= 4) {
+            clicks13 = 0;
           }
-          checkWin();
+          //checkWin();
         }
       }, 200);
     });
@@ -514,7 +604,6 @@ window.onload=function() {
         }
       }, 200);
     });
-    */
   }
 
   // Check for portrait orientation
